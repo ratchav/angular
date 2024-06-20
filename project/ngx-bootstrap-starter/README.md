@@ -1,27 +1,38 @@
-# NgxBootstrapStarter
+## Installation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
 
-## Development server
+```bash
+D:\ngx-bootstrap-starter>ng add ngx-bootstrap
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more  
+details and how to change this setting, see https://angular.io/analytics. No
+Global setting: enabled
+Local setting: disabled
+Effective status: disabled
+ℹ Using package manager: npm
+✔ Found compatible package version: ngx-bootstrap@11.0.2.
+✔ Package information loaded.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The package ngx-bootstrap@11.0.2 will be installed and executed.
+Would you like to proceed? Yes
+✔ Packages successfully installed.
+    ✅️ Added "bootstrap
+    ✅️ Added "ngx-bootstrap
+UPDATE package.json (1112 bytes)
+UPDATE angular.json (2957 bytes)        
+UPDATE src/app/app.module.ts (502 bytes)
+✔ Packages installed successfully.
+```
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+D:\ngx-bootstrap-starter>ng add ngx-bootstrap  --component modals
+Skipping installation: Package already installed
+    ✅️ Added "bootstrap
+    ✅️ Added "ngx-bootstrap
+UPDATE package.json (1112 bytes)
+UPDATE angular.json (2957 bytes)
+UPDATE src/app/app.module.ts (580 bytes)
+✔ Packages installed successfully.
+```
+    
